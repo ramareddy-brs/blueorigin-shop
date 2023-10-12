@@ -1,0 +1,42 @@
+.brand-logo img {
+  max-width: 220px;
+  margin-top: 15px;
+  margin-left: 70px;
+}
+nav ul {
+  padding-right: 60px;
+}
+.slider h2 {
+  font-size: 5rem;
+  padding-top: 250px;
+  font-weight: bold;
+}
+.slider .slides li::before {
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+}
+.section-shopping h4 {
+  font-weight: bold;
+}
+.section-shopping .card-title {
+  font-size: 19px;
+  font-weight: 600;
+}
+.section-shopping p {
+  font-weight: 15px;
+  font-weight: 400;
+}
+.section-shopping .card-title:hover {
+  text-decoration: underline;
+}
+button {
+  margin: 5px;
+}
+h6 {
+  padding-top: 10px;
+}

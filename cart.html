@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <script src="https://kit.fontawesome.com/7c8237c242.js" crossorigin="anonymous"></script>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shopping Cart</title>
+</head>
+
+<body>
+     <!-- Section: Navigation -->
+  <div class="navbar-fixed">
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#!">one</a></li>
+      <li><a href="#!">two</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">three</a></li>
+    </ul>
+    <nav class="blue">
+      
+        <div class="nav-wrapper">
+          <a href="#home" class="brand-logo">
+            <img src="img/shoplogo_270x.png" class="responsive-img" />
+          </a>
+          <a href="#" data-activates="mobile-nav" class="button-collapse">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#">
+                <i class="large material-icons">search</i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="large material-icons">person</i>
+              </a>
+            </li>
+
+            <li>
+              <a href="cart.html">
+                <i class="large material-icons">shopping_cart</i>
+              </a>
+            </li>
+          </ul>
+          <ul class="right hide-on-med-and-down">
+            <!-- Dropdown Trigger -->
+            <li>
+              <a class="dropdown-trigger" href="#!" data-target="dropdown1">Apparel<i class="material-icons right">arrow_drop_down</i></a>
+
+            </li>
+            <li>
+              <a href="#">Accessories</a>
+            </li>
+            <li>
+              <a href="#">New Shepard</a>
+            </li>
+            <li>
+              <a href="#">New Glenn</a>
+            </li>
+            <li>
+              <a href="#">Gift Card</a>
+            </li>
+            <li>
+              <a href="#">Clearance</a>
+            </li>
+          </ul>
+        </div>
+        
+      
+    </nav>
+  </div>
+  <!-- Section: Navigation -->
+
+  <!-- Mobile Navigation -->
+  <ul class="side-nav" id="mobile-nav">
+    <li>
+      <a href="#">Accessories</a>
+    </li>
+    <li>
+      <a href="#">New Shepard</a>
+    </li>
+    <li>
+      <a href="#">New Glenn</a>
+    </li>
+    <li>
+      <a href="#">Gift Card</a>
+    </li>
+    <li>
+      <a href="#">Clearance</a>
+    </li>
+  </ul>
+
+  <!--Section: cart-->
+  <section class="section section-shoppingCart">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 center">
+          <h2>Your cart is empty</h2>
+          <a href="productlist.html" class="blue white-text btn btn-large darken-4">Continue Shopping</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".dropdown-trigger").dropdown();
+      
+    });
+  </script>
+</body>
+
+</html>
